@@ -4,16 +4,16 @@ This repository contains the industry resume source used for GitHub and Overleaf
 
 ## Files
 
-- `main.tex`: current resume source
+- `resume.tex`: current resume source
 - `.gitignore`: LaTeX and local artifact ignores
 
 ## Local build
 
 ```bash
-latexmk -pdf main.tex
+latexmk -pdf resume.tex
 ```
 
-This should generate `main.pdf`.
+This should generate `resume.pdf`.
 
 ## Create the GitHub repo
 
@@ -39,5 +39,4 @@ git push overleaf main
 
 ## Notes
 
-The initial `main.tex` was copied from `INDUSTRY/ANTHROPIC_202601/ANTHROPIC_CV_202601.tex`.
-
+The initial `resume.tex` was copied from `INDUSTRY/ANTHROPIC_202601/ANTHROPIC_CV_202601.tex`.
