@@ -1,0 +1,5 @@
+I’m excited about this role because AI tools have already changed how I work. In my PhD research, they have helped me move faster and execute more independently, including building and deploying tools for a randomized controlled trial. That experience made me want to understand and measure when AI systems are most useful and valuable in practice.
+
+My background combines product measurement and experimentation from Pandora and Spotify with empirical research on digital platforms, creator behavior, and AI's impact on outcomes. I'm especially motivated by work that helps teams develop rigorous ways to measure how AI tools contribute to their workflows, and I want to bring that approach to enterprise AI products.
+
+I also enjoy working across disciplines. My work has involved close collaboration with economists, data scientists, computer scientists, musicologists, and industry practitioners, and I’ve found that kind of environment exciting and valuable.
