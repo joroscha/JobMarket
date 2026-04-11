@@ -1,0 +1,112 @@
+\documentclass[10pt,letterpaper]{article}
+
+% Font
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+
+% Page layout
+\usepackage{geometry}
+\geometry{top=0.55in, bottom=0.55in, left=0.55in, right=0.55in}
+
+% Spacing
+\usepackage{setspace}
+\setstretch{1.0}
+\usepackage{microtype}
+\AtBeginDocument{\fontsize{10.5pt}{12.6pt}\selectfont}
+
+% Colors
+\usepackage[x11names]{xcolor}
+
+% Page style
+\pagestyle{empty}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat*{\section}{\centering\LARGE\scshape}
+\titleformat*{\subsection}{\bfseries\scshape\color{gray}}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
+
+% Lists
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.2em, label=\color{gray}{\textbullet}, nosep, topsep=1pt, itemsep=1pt}
+
+% Links
+\usepackage[hyphens]{url}
+\urlstyle{same}
+\usepackage[hidelinks, hypertexnames=false]{hyperref}
+
+% Custom commands
+\newcommand{\name}[1]{\section*{#1}}
+\newcommand{\sep}{{\color{gray}\,\textbullet\,\,}}
+\newcommand{\hsep}{\noindent\textcolor{gray}{\rule{\textwidth}{0.5pt}}}
+\newcommand{\block}[1]{\begin{samepage}\hsep\subsection*{#1}\end{samepage}}
+
+\begin{document}
+
+\name{Jose Eduardo Oros Chavarria}
+
+\begin{center}
+(412) 500-4169 \sep \href{mailto:joros@cmu.edu}{joros@cmu.edu} \sep \href{https://www.linkedin.com/in/joseoros}{linkedin.com/in/joseoros} \sep \href{https://sites.google.com/view/joseoros}{sites.google.com/view/joseoros}
+\end{center}
+
+\block{Education}
+
+\begin{itemize}[leftmargin=0pt, label={}, itemsep=4pt]
+\item \textbf{Carnegie Mellon University}, Heinz College \sep Pittsburgh, PA
+  \begin{itemize}[label={}]
+  \item Ph.D., Information Systems Management \hfill 2026 (expected)
+  \item Master of Information Systems Management, Business Intelligence and Data Analytics Track \hfill Dec 2017
+  \end{itemize}
+\item \textbf{Instituto Tecnol\'ogico Aut\'onomo de Mexico (ITAM)}, Mexico City, Mexico
+  \begin{itemize}[label={}]
+  \item B.S., Telecommunications Engineering \hfill 2016
+  \end{itemize}
+\end{itemize}
+
+\block{Skills}
+
+\noindent\textbf{Programming:} Python (numpy, pandas, scikit-learn, statsmodels), R (fixest, ggplot2, tidyverse), SQL (PostgreSQL, BigQuery), Java \\
+\textbf{Methods:} Experimentation \& Causal Inference (A/B Testing, Difference-in-Differences, Matching), GLMs, Survival Analysis, Machine Learning \\
+\textbf{Tools \& Platforms:} Tableau, Airflow, AWS \\
+\textbf{Languages:} English, Spanish (Native)
+
+\block{Experience}
+
+\begin{itemize}[leftmargin=0pt, label={}, itemsep=4pt]
+\item \textbf{Carnegie Mellon University} \sep Doctoral Researcher, IDEA Center \sep Pittsburgh, PA \hfill Aug 2019 -- present
+  \begin{itemize}
+  \item Led an end-to-end randomized study on how text-to-music AI systems affect ideation in music composition, finding lower perceived creativity ratings in the AI-assisted condition; designed recruitment, surveys, interviews, and an AWS-hosted web app for data collection across 140 in-person participants and 1{,}000 online evaluators, using LLM tools to help implement the system (manuscript under preparation).
+  \item Led a collaboration with Spotify's Creator Economics team (2023--present) studying the benefits of editorial playlisting for artist outcomes; found substantial on- and off-platform benefits using causal inference methods (DiD and matching); manuscript under review in the Journal of Cultural Economics.
+  \item Built classification models using YouTube data to predict major-label signing and Billboard-chart outcomes for emerging recording artists.
+  \item Mentored 10 Carnegie Mellon master's students on industry-sponsored data science projects, and hired and supervised 1 research assistant.
+  \end{itemize}
+\item \textbf{Spotify} \sep Economics Research Intern, Creator Economics \sep New York City, NY \hfill Summer 2022
+  \begin{itemize}
+  \item Identified key moments of increased usage for Spotify's creator-facing platforms using causal inference methods (DiD), surfacing a product-relevant insight for the product and marketing organizations.
+  \end{itemize}
+\item \textbf{Pandora Media} \sep Data Analyst, Subscriber Growth \& Retention Insights \sep Oakland, CA \hfill Jan 2018 -- Aug 2019
+  \begin{itemize}
+  \item Designed and ran A/B tests for lifecycle email and push campaigns targeting new and lapsed listeners; measured incremental lift on reactivation, listening hours, and LTV.
+  \item Built KPI dashboards and MAU forecasting workflows using Hive, Airflow, and Tableau to track campaign performance and inform targeting decisions.
+  \end{itemize}
+\item \textbf{Pandora Media} \sep Marketing Analytics Science Intern \sep Oakland, CA \hfill Summer 2017
+  \begin{itemize}
+  \item Built a Python and SQL pipeline to log paid marketing engagement data for Pandora's marketing analytics team.
+  \end{itemize}
+\end{itemize}
+
+\block{Teaching \& Presentations}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+\item \textbf{Teaching:} Served as recitation instructor for 35+ students in Advanced Business Analytics at Carnegie Mellon University (2021 -- present), leading weekly review lectures on GLMs, survival analysis, and applied statistical modeling; also served as teaching assistant for 6 courses in analytics, programming, and digital strategy.
+\item \textbf{Selected Presentations:} BIG.AI @ MIT (2026), CODE@MIT (2025), INFORMS (2025), Spotify Tech Research (2025).
+\end{itemize}
+
+\block{Awards \& Selected Programs}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+\item Daniel and Rise Nagin Dissertation Fellowship (2025). Baill\`eres Scholarship, full-tuition merit award (2011 -- 2016). Selected Programs: INFORMS ISS Doctoral Consortium (2024); NBER Digitization Tutorial (2023).
+\end{itemize}
+
+\end{document}

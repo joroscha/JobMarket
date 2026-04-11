@@ -1,0 +1,134 @@
+\documentclass[10pt,letterpaper]{article}
+
+% Font
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+
+% Page layout
+\usepackage{geometry}
+\geometry{top=0.55in, bottom=0.55in, left=0.55in, right=0.55in}
+
+% Spacing
+\usepackage{setspace}
+\setstretch{1.0}
+\usepackage{microtype}
+\AtBeginDocument{\fontsize{10.5pt}{12.6pt}\selectfont}
+
+% Colors
+\usepackage[x11names]{xcolor}
+
+% Page style
+\pagestyle{empty}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat*{\section}{\centering\LARGE\scshape}
+\titleformat*{\subsection}{\bfseries\scshape\color{gray}}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
+
+% Lists
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.2em, label=\color{gray}{\textbullet}, nosep, topsep=1pt, itemsep=1pt}
+
+% Links
+\usepackage[hyphens]{url}
+\urlstyle{same}
+\usepackage[hidelinks, hypertexnames=false]{hyperref}
+
+% Custom commands
+\newcommand{\name}[1]{\section*{#1}}
+\newcommand{\sep}{{\color{gray}\,\textbullet\,\,}}
+\newcommand{\hsep}{\noindent\textcolor{gray}{\rule{\textwidth}{0.5pt}}}
+\newcommand{\block}[1]{\begin{samepage}\hsep\subsection*{#1}\end{samepage}}
+
+\begin{document}
+
+\name{Jose Eduardo Oros Chavarria}
+
+\begin{center}
+(412) 500-4169 \sep \href{mailto:joros@cmu.edu}{joros@cmu.edu} \sep \href{https://www.linkedin.com/in/joseoros}{linkedin.com/in/joseoros} \sep \href{https://sites.google.com/view/joseoros}{sites.google.com/view/joseoros}
+\end{center}
+
+\block{Summary}
+
+\noindent Data scientist with experience in empirical research, experimentation, causal inference, and machine learning across music streaming platforms. Previously supported subscriber growth and retention at Pandora and collaborated with Spotify on creator-economics research; current Carnegie Mellon work uses randomized experiments and platform data to study artist outcomes, product features, and how generative AI changes creative workflows.
+
+\block{Education}
+
+\begin{itemize}[leftmargin=0pt, label={}, itemsep=4pt]
+\item \textbf{Carnegie Mellon University}, Heinz College \sep Pittsburgh, PA
+  \begin{itemize}[label={}]
+  \item Ph.D., Information Systems Management \hfill 2026 (expected)
+  \item Master of Information Systems Management, Business Intelligence and Data Analytics Track \hfill Dec 2017
+  \end{itemize}
+\item \textbf{Instituto Tecnol\'ogico Aut\'onomo de Mexico (ITAM)}, Mexico City, Mexico
+  \begin{itemize}[label={}]
+  \item B.S., Telecommunications Engineering \hfill 2016
+  \end{itemize}
+\end{itemize}
+
+\block{Skills}
+
+\noindent\textbf{Programming:} Python (numpy, pandas, scikit-learn, statsmodels), R (tidyverse, ggplot2, fixest), SQL (PostgreSQL, BigQuery), Java \\
+\textbf{Methods:} Experimentation \& Causal Inference (A/B Testing, Difference-in-Differences, Matching), GLMs, Survival Analysis, Machine Learning \\
+\textbf{Tools \& Platforms:} Tableau, Airflow, AWS, Git, Codex, Claude Code, Copilot \\
+\textbf{Languages:} English, Spanish (Native)
+
+\block{Experience}
+
+\begin{itemize}[leftmargin=0pt, label={}, itemsep=4pt]
+\item \textbf{Carnegie Mellon University} \sep Doctoral Researcher, IDEA Center \sep Pittsburgh, PA \hfill Aug 2019 -- present
+  \begin{itemize}
+  \item Ran an end-to-end randomized study on how text-to-music AI systems affect ideation in music composition; designed recruitment, surveys, interviews, and an AWS-hosted web app for data collection across 140 in-person participants and 1{,}000 online evaluators.
+  \item Led a collaboration with Spotify Tech Research's PRIME Lab (2023--present) to study how editorial playlisting affects artist engagement and off-platform outcomes using platform data and causal inference methods.
+  \item Collaborated with Pex, a music recognition technology company, to identify new partnership opportunities with music labels. Built classification models using YouTube data to predict major-label signings and Billboard-chart outcomes for emerging recording artists.
+  \item Mentored 10 Carnegie Mellon master's students on data science projects with industry partners, and hired and supervised 1 research assistant.
+  \end{itemize}
+\item \textbf{Spotify} \sep Economics Research Intern, Creator Economics (Music Mission) \sep New York City, NY \hfill Summer 2022
+  \begin{itemize}
+  \item Identified touring as a key moment that leads to increased Spotify for Artists usage using causal inference methods (DiD), surfacing a relevant insight for the product and marketing organizations.
+  \end{itemize}
+\item \textbf{Pandora Media} \sep Data Analyst, Subscriber Growth \& Retention Insights \sep Oakland, CA \hfill Jan 2018 -- Aug 2019
+  \begin{itemize}
+  \item Designed and ran A/B tests for lifecycle email and push campaigns targeting new and lapsed listeners; measured incremental lift on reactivation, listening hours, and LTV.
+  \item Built KPI dashboards and MAU forecasting workflows using Hive, Airflow, and Tableau to track campaign performance, support FP\&A forecasting, and inform marketing targeting decisions.
+  \item Delivered ad hoc analyses and reporting for senior and executive stakeholders to inform growth and retention decisions.
+  \end{itemize}
+\item \textbf{Pandora Media} \sep Marketing Analytics Science Intern \sep Oakland, CA \hfill Summer 2017
+  \begin{itemize}
+  \item Built a Python and SQL pipeline to log paid marketing experimental data for Pandora's marketing analytics team.
+  \end{itemize}
+\end{itemize}
+
+\newpage
+
+\block{Selected Research}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+\item \textbf{Help That Hurts: The Creativity Cost of Generative AI Ideation in Music Composition}\\
+\textit{With Richard Randall and Rahul Telang}\\
+Randomized controlled trial examining how a state-of-the-art generative music system (Udio) affects creative workflows in music composition; found lower perceived creativity ratings in the AI condition and shifts in the musical features of composed melodies. Manuscript in preparation for submission; presented at CODE@MIT (2025) and BIG.AI @ MIT (2026).
+\item \textbf{Playlist-Induced Spillovers: Examining On- and Off-Platform Outcomes for Emerging Artists on Spotify}\\
+\textit{With Jacqueline Doremus, Kyle Kretschman, Michael D. Smith, and Rahul Telang}\\
+Collaboration with Spotify estimating how editorial playlist placement of new releases affects multiple outcomes for independent artists; found 140--170\% increases in platform activity, including streams, followers, shares, and user playlist adds, as well as a surprising increase in live-show bookings. Manuscript under review at the Journal of Cultural Economics; presented at Spotify Tech Research and 7 other seminars and conferences.
+\item \textbf{Predicting Artist Success using Social Media Data}\\
+\textit{With George Chen and Michael D. Smith}\\
+Collaboration with Pex building a classification model from YouTube video metrics for independent artists to predict two major career milestones: signing with a record label and appearing on a Billboard chart for the first time. A top-50 ranking based on model predictions captures 16\% of future signings and 19\% of future Billboard-chart artists.
+\end{itemize}
+
+\block{Teaching \& Presentations}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+\item \textbf{Teaching:} Guest Lecturer, Digital Transformation at Carnegie Mellon University (2023 -- 2025). Served as recitation instructor for 35+ students in Advanced Business Analytics (2021 -- present), leading weekly review lectures on GLMs, survival analysis, and applied statistical modeling. Served as teaching assistant for 7 courses in analytics, programming, and digital strategy.
+\item \textbf{Selected Presentations:} BIG.AI @ MIT (2026), CODE@MIT (2025), INFORMS (2025), Spotify Tech Research (2025).
+\end{itemize}
+
+\block{Awards \& Selected Programs}
+
+\begin{itemize}[leftmargin=0pt, label={}]
+\item Daniel and Rise Nagin Dissertation Fellowship (2025). Baill\`eres Scholarship, full-tuition merit award (2011 -- 2016). Selected Programs: INFORMS ISS Doctoral Consortium (2024); NBER Digitization Tutorial (2023).
+\item Reviewer: Information Systems Research (2025); Conference on Information Systems and Technology (2023).
+\end{itemize}
+
+\end{document}

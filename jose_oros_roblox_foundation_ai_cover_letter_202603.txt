@@ -1,0 +1,12 @@
+Dear Hiring Team,
+
+I'm excited to apply for the Data Scientist, Foundation AI - PhD Early Career role at Roblox. I'm graduating with my PhD in Information Systems Management at Carnegie Mellon, where my work focuses on empirical research, experimentation, causal inference, and how AI tools shape user behavior and creative workflows.
+
+In my PhD, I designed and ran a randomized study on how text-to-music AI tools affect ideation in music composition (140 in-person participants, 1,000+ online evaluators), including participant recruitment, survey design, interviews, and an AWS-hosted web app for data collection. I also collaborate with Spotify's Creator Economics team on causal research studying how platform features affect creator outcomes, and previously worked at Pandora designing A/B tests and building KPI dashboards for subscriber growth.
+
+I'm especially motivated by the chance to help evaluate and improve AI tools that genuinely serve creators. I want to bring rigor to how generative AI features are measured for quality, safety, and impact.
+
+Thank you for your consideration.
+
+Sincerely,
+Jose Eduardo Oros Chavarria
