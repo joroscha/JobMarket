@@ -4,16 +4,19 @@ This repository contains the industry resume source used for GitHub and Overleaf
 
 ## Files
 
-- `resume.tex`: current resume source
+- `resume_cv/`: resumes, CVs, cover letters, and local LaTeX build artifacts
+- `interview_prep/`: interview prep notes, scripts, and notebooks
+- `industry_meeting_notes/`: company-specific meeting notes, trackers, and cheatsheets
 - `.gitignore`: LaTeX and local artifact ignores
 
 ## Local build
 
 ```bash
-latexmk -pdf resume.tex
+cd resume_cv
+latexmk -pdf jose_oros_cv_202604.tex
 ```
 
-This should generate `resume.pdf`.
+This should generate the PDF in `resume_cv/`.
 
 ## Create the GitHub repo
 
