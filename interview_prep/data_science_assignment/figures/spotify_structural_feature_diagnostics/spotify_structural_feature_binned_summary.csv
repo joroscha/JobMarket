@@ -1,0 +1,109 @@
+playlist_type,feature,feature_label,metric,metric_label,feature_bin,playlist_count,median_feature_value,median_value,mean_value
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,1-9,0,,,
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,10-24,24,22.0,38636.5,102261.16666666667
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,25-49,126,38.5,60929.5,257838.4126984127
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,50-99,151,66.0,222354.0,1060034.072847682
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,100-249,83,126.0,519138.0,1826413.5662650603
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,250-499,13,372.0,366262.0,1208203.923076923
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,500-999,1,632.0,1732754.0,1732754.0
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,1000+,1,1000.0,1616838.0,1616838.0
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,1-9,0,,,
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,10-24,24,22.0,8.405556978536861,8.648821160312734
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,25-49,126,38.5,9.851776290763524,10.279895327482922
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,50-99,151,66.0,12.828162778079218,13.535932663391351
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,100-249,83,126.0,14.434709821428571,14.978489164776116
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,250-499,13,372.0,14.980194719069708,15.500940442597567
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,500-999,1,632.0,14.543986436011718,14.543986436011718
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,1000+,1,1000.0,19.10936059567427,19.10936059567427
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,1-9,0,,,
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,10-24,23,22.0,0.09904037660691653,0.0991513438155394
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,25-49,119,39.0,0.1118421052631579,0.12821789817116785
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,50-99,147,66.0,0.13593360995850623,0.17142357224008406
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,100-249,78,126.5,0.15597265847808497,0.1700725230749801
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,250-499,13,372.0,0.16217952461601354,0.22543362813302775
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,500-999,1,632.0,0.1672732980800361,0.1672732980800361
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,1000+,1,1000.0,0.2079366511753824,0.2079366511753824
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,1-4,19,1.0,193639.0,927902.3684210526
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,5-9,0,,,
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,10-24,39,21.0,47130.0,106355.43589743589
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,25-49,162,38.0,98340.0,458661.5987654321
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,50-99,131,67.0,230586.0,1522831.7557251907
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,100-249,46,114.5,746952.5,1523363.5
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,250-499,2,276.5,4377.5,4377.5
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,500+,0,,,
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,1-4,19,1.0,13.428777297417138,12.643370794914036
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,5-9,0,,,
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,10-24,39,21.0,8.732789466151424,8.753131020802966
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,25-49,162,38.0,10.869391148530394,11.480810101713008
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,50-99,131,67.0,13.330906790745546,14.07184240874728
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,100-249,46,114.5,14.679725677961848,15.737844707351881
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,250-499,2,276.5,8.152460634024989,8.152460634024989
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,500+,0,,,
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,1-4,19,1.0,0.13599574014909477,0.13925591139584875
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,5-9,0,,,
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,10-24,37,21.0,0.10477941176470588,0.1305374035066985
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,25-49,151,38.0,0.12362030905077263,0.15265958949020647
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,50-99,127,67.0,0.13593360995850623,0.15632871454220748
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,100-249,46,114.5,0.16294939003092312,0.1703222732477566
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,250-499,2,276.5,0.5466321243523315,0.5466321243523315
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,500+,0,,,
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,1-4,16,1.0,250588.0,1078437.6875
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,5-9,1,9.0,21995.0,21995.0
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,10-24,37,22.0,33713.0,100906.54054054055
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,25-49,154,39.0,79820.0,423298.93506493507
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,50-99,140,67.0,264341.5,1458660.5785714285
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,100-249,48,119.0,908890.5,1561562.1458333333
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,250-499,3,292.0,4915.0,96527.33333333333
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,500+,0,,,
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,1-4,16,1.0,13.18942088094514,12.84295990503163
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,5-9,1,9.0,5.660061760164694,5.660061760164694
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,10-24,37,22.0,8.627728250845374,8.506832593314295
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,25-49,154,39.0,10.69516230132144,11.233232614772843
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,50-99,140,67.0,13.486051364584192,14.00755793527059
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,100-249,48,119.0,15.135086887111072,16.185720243564088
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,250-499,3,292.0,9.086876155268023,10.4512644156812
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,500+,0,,,
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,1-4,16,1.0,0.13981005359457194,0.14350273841075858
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,5-9,1,9.0,0.06807351940095303,0.06807351940095303
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,10-24,35,22.0,0.10113629027051456,0.12544688989695063
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,25-49,144,39.0,0.11954192619802506,0.15088877381795704
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,50-99,135,67.0,0.13962264150943396,0.15800691391375232
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,100-249,48,119.0,0.16542830398054803,0.17166793255046972
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,250-499,3,292.0,0.16217952461601354,0.4184812577735589
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,500+,0,,,
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,0,392,0.0,156549.0,930320.7168367347
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,1,3,1.0,45052.0,57906.666666666664
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,2-4,2,2.0,154963.5,154963.5
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,5-9,1,9.0,280827.0,280827.0
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,10-24,1,10.0,205427.0,205427.0
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,25-49,0,,,
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,50+,0,,,
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,0,392,0.0,12.143384197586956,12.66200108680089
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,1,3,1.0,6.108188720173536,7.227725574929809
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,2-4,2,2.0,8.497723489691348,8.497723489691348
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,5-9,1,9.0,15.048871978993622,15.048871978993622
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,10-24,1,10.0,7.9126030352053,7.9126030352053
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,25-49,0,,,
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,50+,0,,,
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,0,376,0.0,0.13390510655197085,0.15603059832574548
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,1,2,1.0,0.07817903861021343,0.07817903861021343
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,2-4,2,2.0,0.08919272600550233,0.08919272600550233
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,5-9,1,9.0,0.16217952461601354,0.16217952461601354
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,10-24,1,10.0,0.14475179992421372,0.14475179992421372
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,25-49,0,,,
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,50+,0,,,
+Spotify-owned,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams,0,14,0.0,178764.0,529535.2857142857
+Spotify-owned,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams,1,57,1.0,76004.0,449872.8771929825
+Spotify-owned,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams,2,228,2.0,212241.0,935007.4824561403
+Spotify-owned,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams,3,71,3.0,103467.0,696023.7183098592
+Spotify-owned,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams,4+,29,4.0,140693.0,2413792.5517241377
+Spotify-owned,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user,0,14,0.0,11.011474964364986,12.649003355581227
+Spotify-owned,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user,1,57,1.0,11.210494996789803,11.003734675153666
+Spotify-owned,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user,2,228,2.0,12.893979214643881,13.076397233579488
+Spotify-owned,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user,3,71,3.0,11.383447131644438,12.323523282684922
+Spotify-owned,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user,4+,29,4.0,10.662650602409638,12.567478584678309
+Spotify-owned,n_title_tokens,# title tokens,retention_rate,Continuity rate,0,14,0.0,0.15849984326738442,0.19946848136527665
+Spotify-owned,n_title_tokens,# title tokens,retention_rate,Continuity rate,1,55,1.0,0.12517749047156415,0.14233174807935123
+Spotify-owned,n_title_tokens,# title tokens,retention_rate,Continuity rate,2,218,2.0,0.1314797100204662,0.1476219215724338
+Spotify-owned,n_title_tokens,# title tokens,retention_rate,Continuity rate,3,67,3.0,0.13593360995850623,0.17244349156278105
+Spotify-owned,n_title_tokens,# title tokens,retention_rate,Continuity rate,4+,28,4.0,0.1432378941812904,0.17689578940274533

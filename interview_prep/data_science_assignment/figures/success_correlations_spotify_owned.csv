@@ -1,0 +1,7 @@
+feature,feature_label,spearman_rho,n
+n_tracks,# tracks,0.3997612126323339,399
+n_albums,# albums,0.3885878822738808,399
+n_artists,# artists,0.37898386240841336,399
+one_artist,One artist playlist,0.07619324507250126,399
+recent_track_change,Recent track change,-0.029795238991618105,399
+n_title_tokens,# title tokens,0.012902473565580165,399

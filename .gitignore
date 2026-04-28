@@ -18,3 +18,8 @@
 *.vrb
 .claude/
 
+.Rproj.user
+
+# Large local data inputs
+interview_prep/data_science_assignment/spotify_matching_input.csv
+interview_prep/data_science_assignment/playlist_revision_v05.txt

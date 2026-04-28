@@ -1,0 +1,5 @@
+Reach group,Intensity group,# Playlists,% of user-owned playlists,Median reach,Median intensity,Median owner stream share,Median continuity rate,Reach cut,Intensity cut
+High reach,High intensity,125307,0.30043516309625135,72.0,58.5,0.5,0.75,21.0,25.5
+High reach,Low intensity,83943,0.20126113382164307,50.0,14.5,0.10909090909090909,0.25,21.0,25.5
+Low reach,High intensity,84122,0.2016903029358524,5.0,69.5,0.9649122807017544,1.0,21.0,25.5
+Low reach,Low intensity,123713,0.29661340014625315,7.0,8.5,0.5869565217391305,1.0,21.0,25.5

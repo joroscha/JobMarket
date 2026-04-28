@@ -12,7 +12,7 @@ class UniqueLabels():
         unique_labels = set()
         if with_replacement:
             for _ in range(n):
-                #index = int(rnd.random()*(self.population_size-1))
+                #index = int(rnd.random()*(self.population_size))
                 index = rnd.randrange(self.population_size)
                 cummulative_count = 0
                 for key,value in self.freqDict.items():

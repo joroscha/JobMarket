@@ -1,0 +1,5 @@
+segment,sample,n,median_monthly_stream30s,median_non_owner_monthly_stream30s
+Spotify-owned,Full sample,399,154812,154812
+User-owned,Full sample,413368,83,21
+Spotify-owned,Matched sample,399,154812,154812
+User-owned,Matched sample,1197,80,26

@@ -1,0 +1,178 @@
+
+Call:
+matchit(formula = match_formula, data = matching_df, method = "nearest", 
+    distance = "glm", estimand = "ATT", exact = ~genre_1, replace = FALSE, 
+    ratio = 3)
+
+Summary of Balance for All Data:
+                      Means Treated Means Control Std. Mean Diff. Var. Ratio
+distance                     0.0027        0.0010          0.4444     7.2791
+log_n_tracks                 4.1818        4.3911         -0.3031     0.2805
+log_n_local_tracks           0.0225        0.3641         -1.7770     0.0499
+log_n_artists                3.7898        3.5905          0.2267     0.3684
+log_n_albums                 3.8381        3.6677          0.2010     0.3587
+tok_country                  0.0326        0.0165          0.0906          .
+tok_summer                   0.0125        0.0143         -0.0163          .
+tok_party                    0.0426        0.0142          0.1409          .
+tok_chill                    0.0301        0.0119          0.1067          .
+tok_rock                     0.0376        0.0107          0.1416          .
+tok_love                     0.0251        0.0097          0.0985          .
+tok_dance                    0.0150        0.0071          0.0653          .
+tok_workout                  0.0201        0.0055          0.1039          .
+tok_pop                      0.0351        0.0049          0.1643          .
+tok_indie                    0.0451        0.0048          0.1940          .
+tok_night                    0.0175        0.0047          0.0975          .
+tok_hits                     0.0125        0.0045          0.0721          .
+genre_1Alternative           0.0802        0.0804         -0.0006          .
+genre_1Blues                 0.0276        0.0083          0.1178          .
+genre_1Children's            0.0025        0.0041         -0.0328          .
+genre_1Classical             0.0150        0.0099          0.0419          .
+genre_1Country & Folk        0.0226        0.0352         -0.0852          .
+genre_1Dance & House         0.0627        0.0592          0.0143          .
+genre_1Electronica           0.0727        0.0351          0.1446          .
+genre_1Holiday               0.0025        0.0004          0.0422          .
+genre_1Indie Rock            0.2180        0.1764          0.1010          .
+genre_1Jazz                  0.0050        0.0011          0.0549          .
+genre_1Latin                 0.0476        0.0436          0.0188          .
+genre_1Metal                 0.0175        0.0144          0.0237          .
+genre_1New Age               0.0075        0.0055          0.0237          .
+genre_1Pop                   0.1704        0.1544          0.0426          .
+genre_1Punk                  0.0075        0.0239         -0.1895          .
+genre_1R&B                   0.0050        0.0377         -0.4623          .
+genre_1Rap                   0.0451        0.1588         -0.5480          .
+genre_1Reggae                0.0025        0.0081         -0.1115          .
+genre_1Religious             0.1128        0.0531          0.1888          .
+genre_1Rock                  0.0501        0.0702         -0.0922          .
+genre_1Soundtrack            0.0125        0.0173         -0.0427          .
+genre_1Spoken & Audio        0.0125        0.0029          0.0869          .
+                      eCDF Mean eCDF Max
+distance                 0.2604   0.5214
+log_n_tracks             0.0254   0.2239
+log_n_local_tracks       0.0045   0.1945
+log_n_artists            0.0234   0.2034
+log_n_albums             0.0237   0.2102
+tok_country              0.0161   0.0161
+tok_summer               0.0018   0.0018
+tok_party                0.0285   0.0285
+tok_chill                0.0182   0.0182
+tok_rock                 0.0269   0.0269
+tok_love                 0.0154   0.0154
+tok_dance                0.0079   0.0079
+tok_workout              0.0146   0.0146
+tok_pop                  0.0302   0.0302
+tok_indie                0.0403   0.0403
+tok_night                0.0128   0.0128
+tok_hits                 0.0080   0.0080
+genre_1Alternative       0.0002   0.0002
+genre_1Blues             0.0193   0.0193
+genre_1Children's        0.0016   0.0016
+genre_1Classical         0.0051   0.0051
+genre_1Country & Folk    0.0126   0.0126
+genre_1Dance & House     0.0035   0.0035
+genre_1Electronica       0.0376   0.0376
+genre_1Holiday           0.0021   0.0021
+genre_1Indie Rock        0.0417   0.0417
+genre_1Jazz              0.0039   0.0039
+genre_1Latin             0.0040   0.0040
+genre_1Metal             0.0031   0.0031
+genre_1New Age           0.0020   0.0020
+genre_1Pop               0.0160   0.0160
+genre_1Punk              0.0164   0.0164
+genre_1R&B               0.0326   0.0326
+genre_1Rap               0.1137   0.1137
+genre_1Reggae            0.0056   0.0056
+genre_1Religious         0.0597   0.0597
+genre_1Rock              0.0201   0.0201
+genre_1Soundtrack        0.0047   0.0047
+genre_1Spoken & Audio    0.0097   0.0097
+
+Summary of Balance for Matched Data:
+                      Means Treated Means Control Std. Mean Diff. Var. Ratio
+distance                     0.0027        0.0027          0.0012     1.0005
+log_n_tracks                 4.1818        4.2946         -0.1633     0.5052
+log_n_local_tracks           0.0225        0.0416         -0.0995     0.6303
+log_n_artists                3.7898        3.9028         -0.1285     0.7277
+log_n_albums                 3.8381        3.9591         -0.1428     0.7230
+tok_country                  0.0326        0.0477         -0.0852          .
+tok_summer                   0.0125        0.0101          0.0223          .
+tok_party                    0.0426        0.0527         -0.0501          .
+tok_chill                    0.0301        0.0277          0.0141          .
+tok_rock                     0.0376        0.0302          0.0391          .
+tok_love                     0.0251        0.0251         -0.0003          .
+tok_dance                    0.0150        0.0101          0.0410          .
+tok_workout                  0.0201        0.0226         -0.0183          .
+tok_pop                      0.0351        0.0452         -0.0549          .
+tok_indie                    0.0451        0.0427          0.0115          .
+tok_night                    0.0175        0.0176         -0.0005          .
+tok_hits                     0.0125        0.0151         -0.0228          .
+genre_1Alternative           0.0802        0.0804         -0.0007          .
+genre_1Blues                 0.0276        0.0276         -0.0004          .
+genre_1Children's            0.0025        0.0025         -0.0001          .
+genre_1Classical             0.0150        0.0151         -0.0003          .
+genre_1Country & Folk        0.0226        0.0226         -0.0004          .
+genre_1Dance & House         0.0627        0.0603          0.0097          .
+genre_1Electronica           0.0727        0.0729         -0.0007          .
+genre_1Holiday               0.0025        0.0025         -0.0001          .
+genre_1Indie Rock            0.2180        0.2186         -0.0013          .
+genre_1Jazz                  0.0050        0.0050         -0.0002          .
+genre_1Latin                 0.0476        0.0477         -0.0006          .
+genre_1Metal                 0.0175        0.0176         -0.0003          .
+genre_1New Age               0.0075        0.0075         -0.0002          .
+genre_1Pop                   0.1704        0.1709         -0.0011          .
+genre_1Punk                  0.0075        0.0075         -0.0002          .
+genre_1R&B                   0.0050        0.0050         -0.0002          .
+genre_1Rap                   0.0451        0.0452         -0.0005          .
+genre_1Reggae                0.0025        0.0025         -0.0001          .
+genre_1Religious             0.1128        0.1131         -0.0009          .
+genre_1Rock                  0.0501        0.0503         -0.0006          .
+genre_1Soundtrack            0.0125        0.0126         -0.0003          .
+genre_1Spoken & Audio        0.0125        0.0126         -0.0003          .
+                      eCDF Mean eCDF Max Std. Pair Dist.
+distance                 0.0004   0.0073          0.2710
+log_n_tracks             0.0110   0.1287          0.9878
+log_n_local_tracks       0.0001   0.0176          0.2178
+log_n_artists            0.0160   0.1258          0.7784
+log_n_albums             0.0159   0.1409          0.7833
+tok_country              0.0151   0.0151          0.2023
+tok_summer               0.0025   0.0025          0.1051
+tok_party                0.0101   0.0101          0.2565
+tok_chill                0.0024   0.0024          0.2250
+tok_rock                 0.0074   0.0074          0.1845
+tok_love                 0.0001   0.0001          0.1603
+tok_dance                0.0050   0.0050          0.1167
+tok_workout              0.0026   0.0026          0.1728
+tok_pop                  0.0101   0.0101          0.1771
+tok_indie                0.0024   0.0024          0.2093
+tok_night                0.0001   0.0001          0.1845
+tok_hits                 0.0025   0.0025          0.1577
+genre_1Alternative       0.0002   0.0002          0.1969
+genre_1Blues             0.0001   0.0001          0.1123
+genre_1Children's        0.0000   0.0000          0.0334
+genre_1Classical         0.0000   0.0000          0.0824
+genre_1Country & Folk    0.0001   0.0001          0.1013
+genre_1Dance & House     0.0023   0.0023          2.5785
+genre_1Electronica       0.0002   0.0002          0.1866
+genre_1Holiday           0.0000   0.0000          0.0334
+genre_1Indie Rock        0.0005   0.0005          0.3520
+genre_1Jazz              0.0000   0.0000          0.0473
+genre_1Latin             0.0001   0.0001          0.1491
+genre_1Metal             0.0000   0.0000          0.0891
+genre_1New Age           0.0000   0.0000          0.0580
+genre_1Pop               0.0004   0.0004          0.3022
+genre_1Punk              0.0000   0.0000          0.0580
+genre_1R&B               0.0000   0.0000          0.0473
+genre_1Rap               0.0001   0.0001          0.1449
+genre_1Reggae            0.0000   0.0000          0.0334
+genre_1Religious         0.0003   0.0003          0.2377
+genre_1Rock              0.0001   0.0001          0.1531
+genre_1Soundtrack        0.0000   0.0000          0.0751
+genre_1Spoken & Audio    0.0000   0.0000          0.0751
+
+Sample Sizes:
+              Control Treated
+All            413368     399
+Matched (ESS)     400     399
+Matched          1197     399
+Unmatched      412171       0
+Discarded           0       0
+

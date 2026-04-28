@@ -1,0 +1,127 @@
+feature_bin,playlist_count,mean_value,median_value,median_feature_value,feature,feature_label,success_metric,success_metric_label
+1-9,22590,22.762107127047365,0.0,4.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+10-24,52297,135.27921295676617,14.0,17.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+25-49,71183,126.96317941081438,19.0,36.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+50-99,91373,187.10001860505838,23.0,70.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+100-249,103747,301.5612596026873,27.0,150.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+250-499,44134,406.55079983686045,31.0,332.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+500-999,20539,887.5585958420565,32.0,654.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1000+,11222,344.43931563001246,32.0,1544.0,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1-9,22590,485.22169416707254,647.0,4.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+10-24,52297,26.672628913118974,11.5,17.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+25-49,71183,32.71134994667724,17.5,36.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+50-99,91373,42.41742373952059,23.5,70.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+100-249,103747,58.019390596075404,31.666666666666668,150.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+250-499,44134,77.43935800127709,42.64583333333333,332.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+500-999,20539,98.60951166023558,53.30612244897959,654.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1000+,11222,122.0312451697913,67.0,1544.0,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1-9,6300,0.47636797762292976,0.3333333333333333,6.0,n_tracks,# tracks,retention_rate,Continuity rate
+10-24,42244,0.5556616059673783,0.5,17.0,n_tracks,# tracks,retention_rate,Continuity rate
+25-49,62099,0.6209875659610548,0.5,36.0,n_tracks,# tracks,retention_rate,Continuity rate
+50-99,83562,0.6449392535317235,0.6666666666666666,71.0,n_tracks,# tracks,retention_rate,Continuity rate
+100-249,97833,0.6524561294138009,0.6666666666666666,150.0,n_tracks,# tracks,retention_rate,Continuity rate
+250-499,42357,0.6554079657589198,0.6666666666666666,333.0,n_tracks,# tracks,retention_rate,Continuity rate
+500-999,19897,0.6466533537093537,0.625,654.0,n_tracks,# tracks,retention_rate,Continuity rate
+1000+,10922,0.6320058363699312,0.5,1544.0,n_tracks,# tracks,retention_rate,Continuity rate
+1-4,58469,129.84701294703177,11.0,1.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+5-9,17017,208.96785567373803,15.0,7.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+10-24,67315,147.2955359132437,16.0,17.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+25-49,82510,143.82823900133317,20.0,36.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+50-99,89834,243.54896809671172,25.0,70.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+100-249,75640,409.3057641459545,29.0,144.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+250-499,20269,763.2775667275149,32.0,320.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+500+,6031,631.0427789752944,31.0,657.0,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1-4,58469,218.55955165583293,27.25,1.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+5-9,17017,27.47262303767594,11.0,7.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+10-24,67315,27.994716890452807,14.529411764705882,17.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+25-49,82510,39.999013951018945,22.0,36.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+50-99,89834,52.410392198314995,29.0,70.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+100-249,75640,72.24542539696891,40.0,144.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+250-499,20269,100.26578133622758,57.0,320.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+500+,6031,125.31391665443205,68.0,657.0,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1-4,39586,0.5022198973028567,0.5,1.0,n_artists,# artists,retention_rate,Continuity rate
+5-9,13693,0.48585721491379924,0.3333333333333333,7.0,n_artists,# artists,retention_rate,Continuity rate
+10-24,54652,0.5983399543854979,0.5,17.0,n_artists,# artists,retention_rate,Continuity rate
+25-49,73660,0.653920528443145,0.6666666666666666,36.0,n_artists,# artists,retention_rate,Continuity rate
+50-99,84310,0.6688876685929299,0.6666666666666666,70.0,n_artists,# artists,retention_rate,Continuity rate
+100-249,73408,0.6717118512405217,0.6666666666666666,144.0,n_artists,# artists,retention_rate,Continuity rate
+250-499,19943,0.6665905036792865,0.6666666666666666,320.0,n_artists,# artists,retention_rate,Continuity rate
+500+,5962,0.6529612213130139,0.6666666666666666,657.0,n_artists,# artists,retention_rate,Continuity rate
+1-4,49732,124.45783399018741,9.0,1.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+5-9,20580,194.90772594752187,18.0,7.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+10-24,66648,166.85448925699197,16.0,17.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+25-49,81341,146.3288747372174,20.0,36.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+50-99,90547,220.82526201862015,24.0,70.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+100-249,79493,380.3656799969809,29.0,144.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+250-499,22006,559.6568663091884,32.0,321.0,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+500+,6738,1376.5182546749777,32.0,658.5,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1-4,49732,245.66219869232097,23.5,1.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+5-9,20580,27.740245556920605,12.0,7.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+10-24,66648,28.496222479558522,15.0,17.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+25-49,81341,39.859952325001395,21.8,36.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+50-99,90547,52.264961283255865,29.0,70.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+100-249,79493,71.38892873029775,40.0,144.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+250-499,22006,98.95982942643252,57.0,321.0,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+500+,6738,130.22865235223762,71.5,658.5,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1-4,31989,0.4506094080227197,0.3333333333333333,1.0,n_albums,# albums,retention_rate,Continuity rate
+5-9,17060,0.465138829465005,0.3333333333333333,7.0,n_albums,# albums,retention_rate,Continuity rate
+10-24,53863,0.5971324055663251,0.5,17.0,n_albums,# albums,retention_rate,Continuity rate
+25-49,72243,0.6569832953791037,0.6666666666666666,36.0,n_albums,# albums,retention_rate,Continuity rate
+50-99,84686,0.6759165473952091,0.6666666666666666,70.0,n_albums,# albums,retention_rate,Continuity rate
+100-249,77067,0.6764255418207017,0.6666666666666666,145.0,n_albums,# albums,retention_rate,Continuity rate
+250-499,21643,0.6691925379939291,0.6666666666666666,321.0,n_albums,# albums,retention_rate,Continuity rate
+500+,6663,0.6696688165855538,0.6666666666666666,658.0,n_albums,# albums,retention_rate,Continuity rate
+0,329041,250.09273312444347,20.0,0.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1,24439,204.58635787061664,23.0,1.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+2-4,29111,236.5251623097798,24.0,2.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+5-9,13584,229.61653415783275,25.0,6.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+10-24,11972,302.6357333778817,26.0,14.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+25-49,4626,283.9991353220925,27.0,33.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+50+,4312,652.5688775510204,29.0,88.0,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+0,329041,78.97700927044211,24.0,0.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1,24439,51.648784681760866,27.0,1.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+2-4,29111,58.033566731260926,30.61111111111111,2.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+5-9,13584,62.23944898232592,32.5,6.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+10-24,11972,68.71145903775628,36.0,14.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+25-49,4626,79.89602840391045,40.5,33.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+50+,4312,96.51446111182995,50.0,88.0,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user
+0,282439,0.6135839668322588,0.5,0.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+1,22819,0.6854007636253613,0.7,1.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+2-4,27127,0.6956248627422257,0.75,2.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+5-9,12817,0.6919156196219576,0.6666666666666666,6.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+10-24,11416,0.6827310028778113,0.6666666666666666,14.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+25-49,4442,0.6794699106821697,0.6666666666666666,33.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+50+,4154,0.674224961052579,0.6666666666666666,88.0,recent_track_change,Recent track change,retention_rate,Continuity rate
+1,275158,149.94186249354917,19.0,1.0,owner_playlist_count,Owner playlist count,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+2,73492,209.25038099384966,23.0,2.0,owner_playlist_count,Owner playlist count,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+3-4,44313,289.3046510053483,23.0,3.0,owner_playlist_count,Owner playlist count,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+5-9,18707,1133.9909659485754,24.0,6.0,owner_playlist_count,Owner playlist count,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+10-24,4790,1076.9016701461378,25.0,13.0,owner_playlist_count,Owner playlist count,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+25+,625,14749.1824,30.0,37.0,owner_playlist_count,Owner playlist count,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1,275158,92.98247409559188,28.0,1.0,owner_playlist_count,Owner playlist count,monthly_stream30s_per_mau,Monthly 30s streams per active user
+2,73492,46.29123201513996,24.5,2.0,owner_playlist_count,Owner playlist count,monthly_stream30s_per_mau,Monthly 30s streams per active user
+3-4,44313,39.764506156621415,22.5,3.0,owner_playlist_count,Owner playlist count,monthly_stream30s_per_mau,Monthly 30s streams per active user
+5-9,18707,29.437293368721953,17.25,6.0,owner_playlist_count,Owner playlist count,monthly_stream30s_per_mau,Monthly 30s streams per active user
+10-24,4790,18.048450652415834,11.0,13.0,owner_playlist_count,Owner playlist count,monthly_stream30s_per_mau,Monthly 30s streams per active user
+25+,625,9.681033839698289,7.7,37.0,owner_playlist_count,Owner playlist count,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1,240341,0.614591164280219,0.5,1.0,owner_playlist_count,Owner playlist count,retention_rate,Continuity rate
+2,65820,0.6662135966714743,0.6666666666666666,2.0,owner_playlist_count,Owner playlist count,retention_rate,Continuity rate
+3-4,38848,0.6877783982168223,0.6666666666666666,3.0,owner_playlist_count,Owner playlist count,retention_rate,Continuity rate
+5-9,15884,0.6347773857213719,0.5909090909090909,6.0,owner_playlist_count,Owner playlist count,retention_rate,Continuity rate
+10-24,3835,0.4726048787672711,0.4077669902912621,13.0,owner_playlist_count,Owner playlist count,retention_rate,Continuity rate
+25+,486,0.2386836953410483,0.16706292370858397,37.0,owner_playlist_count,Owner playlist count,retention_rate,Continuity rate
+0,46671,82.16856291915751,8.0,0.0,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+1,145033,152.00788096502174,20.0,1.0,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+2,145933,225.8829942507863,23.0,2.0,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+3,49539,430.60651204101816,26.0,3.0,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+4+,29909,831.5025243237822,29.0,4.0,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams
+0,46671,275.9951058057808,57.5,0.0,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user
+1,145033,57.824397311280535,29.0,1.0,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user
+2,145933,48.43692699063192,23.4,2.0,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user
+3,49539,41.359006473845504,19.5,3.0,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user
+4+,29909,33.679971816282816,15.5,4.0,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user
+0,28548,0.7309408188817584,1.0,0.0,n_title_tokens,# title tokens,retention_rate,Continuity rate
+1,129905,0.7219816055316224,1.0,1.0,n_title_tokens,# title tokens,retention_rate,Continuity rate
+2,133635,0.600627885254929,0.5,2.0,n_title_tokens,# title tokens,retention_rate,Continuity rate
+3,45289,0.5216953937811108,0.5,3.0,n_title_tokens,# title tokens,retention_rate,Continuity rate
+4+,27837,0.4218775027088095,0.3333333333333333,4.0,n_title_tokens,# title tokens,retention_rate,Continuity rate

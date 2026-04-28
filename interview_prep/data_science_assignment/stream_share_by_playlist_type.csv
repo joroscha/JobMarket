@@ -1,0 +1,3 @@
+playlist_type,playlist_count,pct_of_total_playlists,total_monthly_stream30s,stream_share,total_non_owner_monthly_stream30s,non_owner_stream_share,median_owner_stream_share
+User-owned,417085,0.9990442747506492,153849901,0.29614646674121836,105046056,0.22316907058062369,0.5652173913043478
+Spotify-owned,399,0.0009557252493508733,365656216,0.7038535332587816,365655622,0.7768309294193764,0.0

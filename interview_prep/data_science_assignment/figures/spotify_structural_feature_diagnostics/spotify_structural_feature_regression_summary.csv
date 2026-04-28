@@ -1,0 +1,16 @@
+playlist_type,feature,feature_label,metric,metric_label,n,slope,intercept,r2,spearman_rho
+Spotify-owned,n_tracks,# tracks,non_owner_monthly_stream30s,Non-owner monthly 30s streams,399,1.09994655389517,7.167889112956593,0.10608863415460368,0.3997612126323339
+Spotify-owned,n_tracks,# tracks,monthly_stream30s_per_mau,Monthly 30s streams per active user,399,0.21760110768685137,1.626533141773352,0.1461710025681272,0.43188846849073953
+Spotify-owned,n_tracks,# tracks,retention_rate,Continuity rate,382,0.02440100455645984,0.05307562120936179,0.017148321030774794,0.2897058916350206
+Spotify-owned,n_artists,# artists,non_owner_monthly_stream30s,Non-owner monthly 30s streams,399,0.583019450536782,9.558084117757993,0.04830892849133828,0.3789838624084135
+Spotify-owned,n_artists,# artists,monthly_stream30s_per_mau,Monthly 30s streams per active user,399,0.1211102844732951,2.0775067530553324,0.07338996769894268,0.40573716460271114
+Spotify-owned,n_artists,# artists,retention_rate,Continuity rate,382,0.014179438745940295,0.10140628678031781,0.009622222179484385,0.2536531068174681
+Spotify-owned,n_albums,# albums,non_owner_monthly_stream30s,Non-owner monthly 30s streams,399,0.6344573624272816,9.332537111022257,0.0531438825782683,0.38858788227388086
+Spotify-owned,n_albums,# albums,monthly_stream30s_per_mau,Monthly 30s streams per active user,399,0.1349006645589897,2.0187359972227386,0.08458432856312514,0.4306904021984685
+Spotify-owned,n_albums,# albums,retention_rate,Continuity rate,382,0.01464109388999108,0.0989399644484908,0.009517716715024882,0.27000699372898085
+Spotify-owned,recent_track_change,Recent track change,non_owner_monthly_stream30s,Non-owner monthly 30s streams,399,0.056651007665074166,11.766351104408972,2.179741565422333e-05,-0.02979523899161811
+Spotify-owned,recent_track_change,Recent track change,monthly_stream30s_per_mau,Monthly 30s streams per active user,399,-0.13224714309120866,2.539468958645923,0.004181919379338428,-0.10576910588386845
+Spotify-owned,recent_track_change,Recent track change,retention_rate,Continuity rate,382,-0.018339582883998444,0.15565734271231196,0.0007541139761592097,-0.07064909224622046
+Spotify-owned,n_title_tokens,# title tokens,non_owner_monthly_stream30s,Non-owner monthly 30s streams,399,0.514675913021102,11.206156961778738,0.0048825200854485384,0.012902473565580169
+Spotify-owned,n_title_tokens,# title tokens,monthly_stream30s_per_mau,Monthly 30s streams per active user,399,0.06449321171916655,2.4661367693991973,0.002699092027077521,0.026292119802438448
+Spotify-owned,n_title_tokens,# title tokens,retention_rate,Continuity rate,382,0.006233416466731498,0.14847550763054496,0.00023829727542845625,0.0777099051772964

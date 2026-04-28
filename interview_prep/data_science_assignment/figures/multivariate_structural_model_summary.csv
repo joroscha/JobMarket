@@ -1,0 +1,4 @@
+model,outcome_label,n,r_squared,adj_r_squared
+Broad reach,log(1 + non-owner monthly 30s streams),417085,0.12707337349896053,0.12706081575254613
+Per-user intensity,log(1 + monthly 30s streams per active user),417085,0.11646169212164204,0.11644898171771934
+Continuity,continuity rate,365214,0.08075706684395634,0.08074196456607308
